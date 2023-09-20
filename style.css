@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  color: seashell;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  text-align: center;
+  opacity: 90%;
+}
+
+h1,
+h3 {
+  margin: 30px 15px 0 0;
+}
+
+h2 {
+  margin: 15px auto;
+  width: 100%;
+}
+
+address {
+  font-style: normal;
+  line-height: 1.5em;
+}
+
+address a {
+  text-decoration: none;
+  height: 200px;
+}
+
+footer .copyright {
+  margin-left: 20px;
+  text-align: left;
+}
+
+p {
+  margin: 15px 0;
+}
+
+section {
+  margin-top: 64px;
+}
+
+.navbar {
+  background-color: black;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid seashell;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.navbar-link {
+  margin-right: 15px;
+  display: inline;
+}
+
+.navbar-link a {
+  transition: 0.3s;
+  padding: 12px;
+}
+
+.navbar-link a:hover {
+  font-size: 1.3em;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 5px;
+}
+
+.navbar-link a:active {
+  opacity: 0.7;
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+.container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+#hero {
+  height: 700px;
+  width: 1200px;
+  background-image: url("images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+#hero header {
+  background-color: black;
+  width: 100%;
+  padding: 16px;
+}
+
+#tea {
+  width: 1000px;
+}
+
+#locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url("images/img-locations-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card {
+  margin: 15px;
+}
+
+.card h4 {
+  margin: 10px;
+}
+
+.address-card {
+  background-color: black;
+  width: 300px;
+  margin: 15px 20px;
+  padding-bottom: 32px;
+}
